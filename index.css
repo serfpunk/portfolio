@@ -1,0 +1,338 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+  height: 1995px;
+}
+.BgPhoto {
+  position: absolute;
+  width: 1600 px;
+  height: 900 px;
+}
+
+
+.logo {
+  position: absolute;
+  top: 57px;
+  left: 216px;
+  right: 1353px;
+  bottom: 795px;
+}
+
+.HeaderHome {
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  top: 71px;
+  left: 316px;
+  right: 1249px;
+  bottom: 808px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderAbout {
+  font-family: 'Anton';
+  position: absolute;
+  top: 71px;
+  left: 391px;
+  right: 1170px;
+  bottom: 808px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderTickets {
+  position: absolute;
+  width: 49px;
+  height: 21px;
+  left: 470px;
+  top: 71px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderContacts {
+  font-family: 'Anton';
+  position: absolute;
+  top: 71px;
+  left: 559px;
+  right: 979px;
+  bottom: 808px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderNumber {
+  font-family: 'Anton';
+  position: absolute;
+  width: auto;
+  height: 25px;
+  top: 69px;
+  left: 1244px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.HeaderText1 {
+  position: absolute;
+  left: 216px;
+  top: 321px;
+  bottom: 535px;
+  width: auto;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;  
+}
+
+.HeaderText2 {
+  position: absolute;
+  width: 511px;
+  height: 147px;
+  left: 213px;
+  top: 355px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 151px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;  
+}
+
+.HeaderRect {
+  position: absolute;
+  left: 216px;
+  top: 521px;
+  right: 1146px;
+  bottom: 322px;
+}
+
+.HeaderTextInRect {
+  position: absolute;
+  width: 191.48px;
+  height: 22px;
+  left: 239px;
+  top: 539px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+.Block {
+  height: 1158px;
+  width: 1600px;
+  left: 0px;
+  top: 900px;
+  right: 1600px;
+  bottom: 2058px;
+
+  color: #FFFFFF;
+}
+.BlockTitle1 {
+  position: absolute;
+  left: 216px;
+  top: 950px;
+  width: 334px;
+  height: 73px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+
+.BlockTitle2 {
+  position: absolute;
+  width: 300px;
+  height: 49px;
+  left: 215px;
+  top: 1081px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.BlockTitle3 {
+  position: absolute;
+  width: 300px;
+  height: 49px;
+  left: 815px;
+  top: 1081px;
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.BlockText1 {
+  position: absolute;
+  width: 564px;
+  height: 146px;
+  left: 215px;
+  top: 1149px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.BlockText2 {
+  position: absolute;
+  width: 564px;
+  height: 192px;
+  left: 815px;
+  top: 1149px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+
+  color: #000000;
+
+}
+
+.BlockPh1 {
+  position: absolute;
+  left: 216px;
+  top: 1408px;
+  right: 1114px;
+}
+
+.BlockPh2 {
+  position: absolute;
+  left: 515px;
+  top: 1408px;
+  right: 815px;
+}
+
+.BlockPh3 {
+  position: absolute;
+  left: 815px;
+  top: 1408px;
+  right: 215px;
+}
+
+.FooterText1 {
+  position: absolute;
+  width: 244px;
+  height: 49px;
+  left: 216px;
+  top: 1866px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000; 
+}
+
+.FooterText2 {
+  position: absolute;
+  width: 244px;
+  height: 49px;
+  left: 515px;
+  top: 1866px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000;
+}
